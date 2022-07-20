@@ -45,7 +45,7 @@ A person should have the following field structure:
  * Use H2 database
 
 ## The API Endpoints
-[_**Here**_](https://brpessoasapplicationtest.azurewebsites.net/pessoas) you can see the API in action. _Please, don't abuse of them, it's running in a low instance of Azure App service._
+[_**Here (a GET request)**_](https://apipessoas.azurewebsites.net/pessoas) you can see the API in action. _Please, don't abuse of them, it's running in a low instance of Azure App service._
 1. Create a person:
 
 ``POST /pessoas``

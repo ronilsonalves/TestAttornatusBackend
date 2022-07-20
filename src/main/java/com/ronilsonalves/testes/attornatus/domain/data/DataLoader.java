@@ -23,7 +23,7 @@ public class DataLoader implements ApplicationRunner {
         List<Endereco> enderecos = new ArrayList<>();
         enderecos.add(new Endereco(null,"Avenida Almirante Maximiano Fonseca","96204-040",16,"Rio Grande"));
         enderecos.add(new Endereco(null,"Rua Serra de Bragança","03318-000",19,"São Paulo"));
-        repository.save(new Pessoa(null, "Ciclano da Cunha", LocalDate.MIN, enderecos, null));
+        repository.save(new Pessoa(null, "Ciclano da Cunha", LocalDate.now(), enderecos, null));
         enderecos.clear();
         enderecos.add(new Endereco(null,"Rua dos Carijós","30120-060",18,"Belo Horizonte"));
         enderecos.add(new Endereco(null,"Avenida Esbertalina Barbosa Damiani","29946-490",21,"São Mateus"));
